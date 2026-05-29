@@ -1,0 +1,33 @@
+Implémenter le menu principal
+
+Island
+	- Fin du jeu
+		D'abord juste afficher un message "vous avez gagné" et revenir au menu principal
+		Remplacer le message par cinématique
+			Le perso reconstruit le bateau, il embarque, et le bateau part vers l'infini et au-delà
+    - Le joueur gagne une pièce de bateau quand il gagne un mini-jeu
+    - Le loup poursuit le joueur après le 1er défi
+        Faire l'ABP loup
+        Le loup se déplace auto vers le joueur
+        Quand il atteint le joueur le joueur perd et il revient à la sauvegarde précédente
+        Ajouter un signal quand le loup est proche du joueur (icone loup rouge en haut ou bas à droite)
+        Changer le jour en nuit quand on termine le 1er défi
+    - Faire le mini-jeu 3 : Platforming sur le lac
+        Platforming on est sur de l'eau et on doit sauter de roche en roche
+    - Si le joueur va dans l'eau il meurt
+        - Sauvegarder état du joueur toutes les secondes avant qu'il aille dans l'eau pour le faire revenir il sait pas nager
+    - Mettre des indications pour dire de bouger le mode overview avec la souris
+
+Trucs à faire s'il nous reste du temps :
+    - Cycle jour/nuit
+    - Choisir garçon fille
+    - Ajouter powerup caché dans les niveaux ou la map qui permet de sprint
+
+
+Autres idées de mini-jeux :
+    - Eviter les arbres
+        On est sur une pente on a des arbres (ou autres, pierres) qui roulent vers le joueur, il doit sauter pour esquiver
+        S'il se fait toucher il perd une vie
+        Il a deux essais, s'il se fait toucher
+    - Jeu de l'oie contre le loup aléatoire
+    - Chifoumi avec le loup 
