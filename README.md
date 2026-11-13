@@ -1,7 +1,6 @@
 # Coincés sur l'Île
 
 ## Concept
-[a](https://github.com/csaxemard/ICEA_L3_2025_Gaming/)
 Projet Gaming, L3 SDN 2025-2026  
 Sophie et Josh sont coincés sur une île mystérieuse.  
 Pour s'en échapper ils doivent résoudre les épreuves de l'île en prenant garde au monstre qui les chasse.
@@ -10,14 +9,14 @@ Pour s'en échapper ils doivent résoudre les épreuves de l'île en prenant gar
 
 ## Contribution
 
+### Tech stack
+- Unreal Engine v5.5.4
+
 ### Etapes pour démarrer
 
 - Cloner la repo, ajouter les dossiers d'assets au dossier Content
 - Lien de téléchargement des dossiers d'assets à ajouter à Content (ils ne devraient pas changer trop souvent) : [Lien google drive](https://drive.google.com/drive/folders/1_4r0SfPOuimYr4dif7mUADnOuMw9D5Rz?usp=sharing)
 
-
-### Tech stack
-- Unreal Engine v5.5.4
 
 ### Architecture de dossiers
 ```js
